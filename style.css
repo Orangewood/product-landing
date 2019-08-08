@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+
+}
+#header{
+  grid-area: header;
+ 
+}
+
+#nav-bar{
+  grid-area: nav;
+   position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  
+  
+}
+
+#About-section{
+  grid-area: about-part;
+  display: inline;
+}
+
+#form{
+  grid-area: form;
+  display: inline;
+  
+}
+
+#Products{
+  grid-area: contain;
+}
+
+ #media-part{
+  grid-area: video;
+}
+
+.foot{
+  grid-area: footer;
+}
+
+.page{
+  display: grid;
+  grid-gap: 50px;
+  grid-template-areas:
+    "header  nav"
+    "about-part   form"
+    "contain  contain"
+    "video   footer"  
+}
+
+
+#header-img{
+  width: 8%;
+  height: 100%;
+  display: flex;
+  float: left;
+
+}
+
+#nav-list{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-content: center;
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.About-stuff{
+  font-size: 35px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+#reflect-pic{
+  width: 55%;
+}
+
+#newtonian-pic{
+  width:40%;
+}
+
+#dob-pic{
+  width: 40%;
+}
+
+@media (hover: hover) {
+  .hovers:hover {
+    background: cyan;
+  }
+}
+
+
+
+
+
+
+
+
+
+    
+
